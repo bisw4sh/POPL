@@ -1,3 +1,3 @@
-Program Hello
-Print *, "Hello World"
-End Program Hello
+program Hello
+print *, "Hello World"
+end program Hello
