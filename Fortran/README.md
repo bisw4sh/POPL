@@ -1,4 +1,4 @@
-To get started with FORTAN
+# To get started with FORTRAN
 
 [Follow](https://youtu.be/RrsoM6wVEWE) this tutorial to set up Fortran Compiler
 
