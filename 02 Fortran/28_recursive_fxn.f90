@@ -12,7 +12,7 @@ program RECURSIVEFXN
   ! 3rd : result = 2 * factorial(1) = 2 * 1 = 2
  
 contains
-  recursive function factorial(n) result(o)
+  recursive function factorial(n) result(o) !result() is explicityly definining the result value to be stored in the o variable
     integer :: n, o
     if (n == 1) then
       o = 1
