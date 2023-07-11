@@ -3,8 +3,12 @@ implicit none
 integer :: indexer, sum
 
 do indexer = 1, 50
-    sum = sum + indexer
-    end do
+    if ( mod(indexer, 2) == 1) then
+        cycle
+    else
+        sum = sum + indexer
+    end if
+end do
 
 print *, "Sum of the number is ", sum
 
